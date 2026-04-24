@@ -143,14 +143,18 @@ footer{padding:40px;display:flex;justify-content:space-between;align-items:cente
   .card-btn{padding:5px 10px;font-size:.65rem;}
 
   /* ABOUT */
-  #about{padding:40px 20px;}
-  #aw{flex-direction:column;gap:32px;align-items:center;}
-  #bt{min-width:unset;max-width:100%;}
-  #bt h2{font-size:1.8rem;}
+  #about{padding:28px 20px 40px;}
+  .about-label{margin-bottom:20px;}
+  #aw{flex-direction:column;gap:24px;align-items:center;}
+  /* Обезьяна идёт первой на мобиле */
+  .monkey-col{order:-1;}
+  #bt{min-width:unset;max-width:100%;order:1;}
+  #bt h2{font-size:1.6rem;margin-bottom:14px;}
   #bt p{font-size:.85rem;}
-  #ms,#mh{width:180px;height:200px;}
-  #monkey-zone{width:180px;height:210px;}
-  #ban img{width:100px;}
+  #ms,#mh{width:160px;height:180px;}
+  #mz{width:160px;height:190px;}
+  #ban img{width:90px;}
+  .bw{margin-top:4px;}
 
   /* FOOTER */
   footer{padding:24px 20px;flex-direction:column;align-items:flex-start;gap:14px;}
